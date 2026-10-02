@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelView - Tour Packages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>🏔️ TravelView</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="feature/feature.html">Tour Packages</a>
+            <a href="#about">About</a>
+            <a href="contact/contact.html">Contact</a>
+        </nav>
+        <a href="#packages" class="book-btn">Book Now</a>
+    </header>
+
+    <section class="hero">
+        <h1>Explore The World</h1>
+        <p>Discover amazing places with our affordable tour packages.</p>
+        <a href="#packages" class="explore-btn">Explore Packages</a>
+    </section>
+
+    <section class="packages" id="packages">
+        <h2>Popular Tour Packages</h2>
+        <p class="subtitle">Choose your next travel destination</p>
+
+        <div class="filters">
+            <button class="active" data-category="All">All</button>
+            <button data-category="Hill Station">Hill Stations</button>
+            <button data-category="Beach">Beach</button>
+            <button data-category="Adventure">Adventure</button>
+            <button data-category="International">International</button>
+        </div>
+
+        <div class="package-grid">
+
+            <div class="card" data-category="Hill Station">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=700" alt="Munnar">
+                <div class="card-content">
+                    <h3>Munnar Getaway</h3>
+                    <p>📍 Kerala, India</p>
+                    <p>🗓️ 3 Days / 2 Nights</p>
+                    <h3 class="price">₹8,999 / person</h3>
+                    <button class="details-btn"
+                        data-name="Munnar Getaway"
+                        data-price="₹8,999"
+                        data-duration="3 Days / 2 Nights"
+                        data-location="Kerala, India">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-category="Beach">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700" alt="Goa Beach">
+                <div class="card-content">
+                    <h3>Goa Beach Escape</h3>
+                    <p>📍 Goa, India</p>
+                    <p>🗓️ 4 Days / 3 Nights</p>
+                    <h3 class="price">₹12,999 / person</h3>
+                    <button class="details-btn"
+                        data-name="Goa Beach Escape"
+                        data-price="₹12,999"
+                        data-duration="4 Days / 3 Nights"
+                        data-location="Goa, India">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-category="Adventure">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700" alt="Manali">
+                <div class="card-content">
+                    <h3>Manali Adventure</h3>
+                    <p>📍 Himachal Pradesh, India</p>
+                    <p>🗓️ 5 Days / 4 Nights</p>
+                    <h3 class="price">₹15,999 / person</h3>
+                    <button class="details-btn"
+                        data-name="Manali Adventure"
+                        data-price="₹15,999"
+                        data-duration="5 Days / 4 Nights"
+                        data-location="Himachal Pradesh, India">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-category="Hill Station">
+                <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=700" alt="Nature tour">
+                <div class="card-content">
+                    <h3>Kerala Backwaters</h3>
+                    <p>📍 Alleppey, Kerala</p>
+                    <p>🗓️ 2 Days / 1 Night</p>
+                    <h3 class="price">₹6,999 / person</h3>
+                    <button class="details-btn"
+                        data-name="Kerala Backwaters"
+                        data-price="₹6,999"
+                        data-duration="2 Days / 1 Night"
+                        data-location="Alleppey, Kerala">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-category="International">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=700" alt="Dubai">
+                <div class="card-content">
+                    <h3>Dubai City Tour</h3>
+                    <p>📍 Dubai, UAE</p>
+                    <p>🗓️ 5 Days / 4 Nights</p>
+                    <h3 class="price">₹45,999 / person</h3>
+                    <button class="details-btn"
+                        data-name="Dubai City Tour"
+                        data-price="₹45,999"
+                        data-duration="5 Days / 4 Nights"
+                        data-location="Dubai, UAE">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-category="International">
+                <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=700" alt="Singapore">
+                <div class="card-content">
+                    <h3>Singapore Getaway</h3>
+                    <p>📍 Singapore</p>
+                    <p>🗓️ 4 Days / 3 Nights</p>
+                    <h3 class="price">₹38,999 / person</h3>
+                    <button class="details-btn"
+                        data-name="Singapore Getaway"
+                        data-price="₹38,999"
+                        data-duration="4 Days / 3 Nights"
+                        data-location="Singapore">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About TravelView</h2>
+        <p>We help you explore beautiful destinations with
+           comfortable stays and memorable travel experiences.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: travelview@example.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+
+    <footer>
+        <p>© 2026 TravelView. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
